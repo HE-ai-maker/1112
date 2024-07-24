@@ -2,7 +2,7 @@ from flask import Flask,render_template,request
 import google.generativeai as palm
 import os
 
-api = os.getenv("AIzaSyA644cQ_NoWSYnyIQ-4CjkFU_o-zHXNg_o")
+api = os.getenv("AAC")
 palm.configure(api_key=api)
 model = {"model":"models/chat-bison-001"}
 
